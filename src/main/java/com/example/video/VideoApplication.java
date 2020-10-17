@@ -35,7 +35,7 @@ public class VideoApplication {
 		}
 	}
 
-	@StoreRestResource(path="videosrc")
+	@StoreRestResource(path="files")
 	public interface VideoStore extends Store<String> {
 		//
 	}
