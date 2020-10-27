@@ -23,7 +23,7 @@ public class VideoApplication {
 	public static class StoreConfig {
 		File filesystemRoot() {
 			// return the root of your video store
-			return new File("/home/max/web/files/jis4");
+			return new File("/home/max/web/files/");
 		}
 
 		// this bean is the spring resource loader that will be used by
